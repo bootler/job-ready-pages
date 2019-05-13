@@ -1,19 +1,24 @@
 .navigation {
-    /* background: radial-gradient(ellipse at center, #006e2e 0%, #006e2e 100%); */
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     background: black;
 }
 
 .header {
     font-family: 'Helvetica';
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 1.25rem;
+    font-weight: 400; 
+}
+
+.header-light {
     color: white;
 }
 
+.header-dark {
+    color: black;
+}
+
 .header-large {
-    font-size: 3.5em;
-    font-weight: 400;
+    font-size: 3.25em;
+    font-weight: lighter;
 }
 
 
@@ -25,10 +30,5 @@
     /* background-image: url('/images/leaf.jpg');
     background-size: cover; */
     background-color: #030;
-}
-
-.text-single {
-    box-sizing: border-box;
-    width: 75%;
 }
 
