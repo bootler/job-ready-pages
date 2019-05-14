@@ -4,10 +4,6 @@
     background-color: #030;
 }
 
-.featured-item:hover .fas{
-    font-size: 110%;
-}
-
 .desc {
     font-family: 'Lato','sans-serif';
     font-weight: 300;
@@ -17,13 +13,17 @@
     text-align: center;
 }
 
+.featured-item:hover .fas{
+    font-size: 110%;
+}
+
 .navigation {
     background: black;
 }
 
 .header {
     font-family: 'Lato','sans-serif';
-    font-size: 1.25rem;
+    font-size: 1.25em;
     font-weight: 400; 
 }
 
