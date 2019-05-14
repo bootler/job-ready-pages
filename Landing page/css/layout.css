@@ -1,3 +1,10 @@
+li {
+    display: inline;
+}
+
+ul {
+    padding: 0;
+}
 
 .banner {
     box-sizing: border-box;
@@ -41,6 +48,14 @@
 
 .flex-row-title {
     margin-top: 6%;
+}
+
+.footer-li {
+    margin: 0 0.5em;
+}
+
+.footer-li-first {
+    margin-right: 0.5em;
 }
 
 .nav-container {
