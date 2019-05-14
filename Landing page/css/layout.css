@@ -4,6 +4,10 @@
     height: 80vh;
 }
 
+.banner-small {
+    height: 45vh;
+}
+
 .centered {
     display: flex;
     flex-flow: column wrap;
