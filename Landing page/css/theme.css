@@ -1,7 +1,21 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato','sans-serif';
+    font-size: 1.25em;
+    font-weight: 400; 
+    margin: 0;
+}
+
 .banner {
     /* background-image: url('/images/leaf.jpg');
     background-size: cover; */
     background-color: #030;
+}
+
+.circle-frame {
+    border-radius: 50%;
+    box-shadow: 0 5px 5px 0 #aba;
+    max-width: 192px;
+    height: auto;
 }
 
 .desc {
@@ -13,18 +27,14 @@
     text-align: center;
 }
 
-.featured-item:hover .fas{
+.hvr-icon:hover .fas {
     font-size: 110%;
 }
 
-.navigation {
-    background: black;
-}
-
-.header {
-    font-family: 'Lato','sans-serif';
-    font-size: 1.25em;
-    font-weight: 400; 
+.flex-row-title {
+    font-size: 2rem;
+    text-align:center;
+    font-weight: 700;
 }
 
 .header-bold {
@@ -32,7 +42,6 @@
     font-weight: 700;
     margin-top: 1.25rem;
     text-align: center;
-    
 }
 
 .header-light {
@@ -47,6 +56,10 @@
 .large-icon {
     font-size: 5em;
     color: #030;
+}
+
+.navigation {
+    background: black;
 }
 
 .section {
