@@ -6,9 +6,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner {
-    /* background-image: url('/images/leaf.jpg');
-    background-size: cover; */
-    background-color: #030;
+    background-image: url('../images/bloom.jpg');
+    background-size: cover; 
 }
 
 .circle-frame {
@@ -47,6 +46,21 @@ h1, h2, h3, h4, h5, h6 {
     color: #030;
 }
 
+.grid-photo-1 {
+    background-image: url('../images/solar.jpg');
+    background-size: cover;
+}
+
+.grid-photo-2 {
+    background-image: url('../images/recycle.jpg');
+    background-size: cover;
+}
+
+.grid-photo-3 {
+    background-image: url('../images/iceberg.jpg');
+    background-size: cover;
+}
+
 .header-bold {
     font-size: 1.8em;
     font-weight: 700;
@@ -81,7 +95,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation {
-    background: black;
+    background: #030;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
 }
 
 .section {
