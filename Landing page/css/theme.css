@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .flex-row-title {
     font-size: 2rem;
-    text-align:center;
+    text-align: center;
     font-weight: 700;
 }
 
@@ -59,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
 .grid-photo-3 {
     background-image: url('../images/iceberg.jpg');
     background-size: cover;
+}
+
+.gt {
+    font-size: 1.1em;
 }
 
 .header-bold {

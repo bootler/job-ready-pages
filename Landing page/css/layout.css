@@ -23,10 +23,6 @@ ul {
     text-align: center;
 }
 
-.gp {
-    min-height: 480px;
-}
-
 .container {
     box-sizing: border-box;
     width: 70vw;
@@ -56,6 +52,15 @@ ul {
 
 .footer-li-first {
     margin-right: 0.5em;
+}
+
+.gp {
+    min-height: 480px;
+}
+
+.gt {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .nav-container {
