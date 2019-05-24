@@ -3,6 +3,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.25em;
     font-weight: 400; 
     margin: 0;
+    text-align: center;
 }
 
 .banner {
@@ -22,8 +23,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     font-size: 1.25em;
     line-height: 1.25em;
-    color: #334;
-    text-align: center;
+    color: #334;  
+    text-align:center;
 }
 
 .hvr-icon:hover .fas {
@@ -69,7 +70,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.8em;
     font-weight: 700;
     margin-top: 1.25rem;
-    text-align: center;
 }
 
 .header-light {
@@ -84,6 +84,10 @@ h1, h2, h3, h4, h5, h6 {
 .icon {
     color: #030;
     font-size: 2em;
+}
+
+.la {
+    text-align: left;
 }
 
 .large-icon {

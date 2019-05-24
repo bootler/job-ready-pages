@@ -39,8 +39,8 @@
 
 .text-single {
 	box-sizing: border-box;
-	width: 70%;
 	height: 2.5rem;
+	width: 70%;
 	font-family: sans-serif;
 	border: 1px solid gray;
 	border-radius: 6px;

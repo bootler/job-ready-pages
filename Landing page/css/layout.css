@@ -1,3 +1,28 @@
+@media screen and (max-width: 600px) {
+    .mb-hidden {
+        display: none;
+    }
+
+    .photo-grid {
+        display: grid !important;
+        grid-template-rows: repeat(6, 1fr) !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .gp {
+        height: 400px !important;
+        width: 100vw !important;
+    }
+
+    .grid-photo-2 {
+       grid-row: 4 !important;
+    }
+
+    .nav-container {
+        width: 80vw !important;
+    }
+}
+
 li {
     display: inline;
 }
@@ -20,7 +45,6 @@ ul {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .container {
@@ -61,6 +85,10 @@ ul {
 .gt {
     width: 70%;
     margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .nav-container {
