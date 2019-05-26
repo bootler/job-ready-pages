@@ -34,7 +34,11 @@
 }
 
 .frm-small {
-	margin-top: 5%
+	margin-top: 5%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .text-single {
