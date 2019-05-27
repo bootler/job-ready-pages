@@ -8,20 +8,16 @@
     <meta name="description" content="Project Page 1: Landing page">
     <meta name="author" content="Alex Boutilier">
 
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700"> 
-    
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/style.min.css">
 
     <title>Project Page 1: Landing Page></title>
 
 </head>
 
 <body>
-    <nav class="navigation">
+    <nav>
         <div class="nav-container">
             <h3 class="header-light">EcoLogic<span class="mb-hidden"> | Because nature is awesome</span></h3>
             <a class="btn-default" href="#">Sign in</a>
@@ -29,7 +25,7 @@
     </nav>
     <header class="banner">
          <div class="overlay centered">
-            <div class="placehld">       
+            <div>       
                 <h1 class="header-large header-light">Nature is beautiful.</h1>
                 <h1 class="header-large header-light">Let's keep it that way.</h1>
                 <form class="frm-small">
@@ -41,22 +37,22 @@
     </header>
     <section class="section">
         <div class="container">
-            <div class="flex-row">
-                <div class="flex-row-item hvr-icon">
+            <div class="flex-store">
+                <div class="flex-item hvr-icon">
                     <span class="large-icon">
                         <i class="fas fa-leaf"></i>
                     </span>
                     <h3 class="header-bold">Exceptional Environmentalism</h3>
                     <p class="desc">The greatest eco-campaign that the world has ever seen.</p>
                 </div>
-                <div class="flex-row-item hvr-icon">
+                <div class="flex-item hvr-icon">
                     <span class="large-icon">
                         <i class="fas fa-recycle"></i>
                     </span>
                     <h3 class="header-bold">Recycling Reimagined</h3>
                     <p class="desc">A brand new approach to building a sustainable world.</p>
                 </div>
-                <div class="flex-row-item hvr-icon">
+                <div class="flex-item hvr-icon">
                     <span class="large-icon">
                         <i class="fas fa-thermometer-empty"></i>
                     </span>
@@ -66,52 +62,52 @@
             </div>
         </div>
     </section>
-    <section class="photo-grid"">
-        <div class="gt">
-            <h1 class="header-bold la">Exceptional Envrionmentalism</h1>
-            <p class="desc la">Our mission is a revolution in environmentalism. 
-                By leveraging the technologies and engineering standards of the information age, 
-                we can scale local grassroots efforts into a global movement for the environment.</p>
-        </div>
+    <section id="photo-grid"">
         <div class="gp grid-photo-1">
             
+        </div>
+        <div class="gt">
+            <h1 class="header-bold">Exceptional Envrionmentalism</h1>
+            <p class="desc">Our mission is a revolution in environmentalism. 
+                By leveraging the technologies and engineering standards of the information age, 
+                we can scale local grassroots efforts into a global movement for the environment.</p>
         </div>
         <div class="gp grid-photo-2">
             
         </div>
-        <div class="gt gr1">
-            <h1 class="header-bold la">Recycling Reimagined</h1>
-            <p class="desc la">Recycling has always posed a number of logistical and engineering challenges.
+        <div class="gt">
+            <h1 class="header-bold">Recycling Reimagined</h1>
+            <p class="desc">Recycling has always posed a number of logistical and engineering challenges.
                 Our Sustainability engineers are a conscious and passionate group of specialists dedicated
                 to solving these problems and maximizing the benefits of recycling for all.
             </p>
         </div>
+        <div class="gp grid-photo-3">
+            
+        </div>
         <div class="gt">
-            <h1 class="header-bold la">Challenging Climate Change</h1>
-            <p class="desc la">Climate change is the greatest environmental challenge facing mankind today. We are dedicated
+            <h1 class="header-bold">Challenging Climate Change</h1>
+            <p class="desc">Climate change is the greatest environmental challenge facing mankind today. We are dedicated
                 to discovering, implementing, and optimizing every social, technological, and logistical resource
                 that the modern age has to offer in order to overcome this challenge. 
             </p>
-        </div>
-        <div class="gp grid-photo-3">
-            
         </div>        
     </section>
     <section class="section">
-        <h1 class="flex-row-title">What people are saying</h1>
+        <h1 class="flex-header">What people are saying<span class="dt-hidden">...</span></h1>
         <div class="container">
-            <div class="flex-row">
-                <div class="flex-row-item">
+            <div class="flex-store">
+                <div class="flex-item">
                     <img class="circle-frame" src="images/portrait1.jpg" alt="IMAGE" />
                     <h3 class="header-bold">Emily O.</h3>
                     <p class="desc">"So proud to be part of this organization!"</p>
                 </div>
-                <div class="flex-row-item">
+                <div class="flex-item">
                     <img class="circle-frame" src="images/portrait2.jpg" alt="IMAGE" />
                     <h3 class="header-bold">Derek M.</h3>
                     <p class="desc">"Love the work we do here!"</p>
                 </div>
-                <div class="flex-row-item">
+                <div class="flex-item">
                     <img class="circle-frame" src="images/portrait3.jpg" alt="IMAGE" />
                     <h3 class="header-bold">Amber W.</h3>
                     <p class="desc">"Ever since I joined EcoLogic, I feel like I've been making a real difference."</p>
@@ -119,9 +115,9 @@
             </div>
         </div>
     </section>
-    <section class="banner banner-small">
+    <section class="banner" id="call-to-action"">
         <div class="overlay centered">    
-            <div class="placehld">       
+            <div>       
                 <h1 class="header-large header-light">Sign up now.</h1>
                 <h1 class="header-large header-light">The planet needs you.</h1>
                 <form class="frm-small">
@@ -131,40 +127,40 @@
             </div>
         </div>
     </section>
-    <footer class="section" style="height: 25vh">
+    <footer class="section">
         <div class="footer-cont">
             <div>
                 <ul>
                     <li class="footer-li-first">
-                        <a class="footer-link" href="#">About</a>
+                        <a href="#">About</a>
                     </li>
                     -
                     <li class="footer-li">
-                        <a class="footer-link" href="#">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
                     -
                     <li class="footer-li">
-                        <a class="footer-link" href="#">Terms of Use</a>
+                        <a href="#">Terms of Use</a>
                     </li>
                     -
                     <li class="footer-li">
-                        <a class="footer-link" href="#">Privacy Policy</a>
+                        <a href="#">Privacy Policy</a>
                     </li>
                 </ul>
                 <p class="legal">© Alex Boutilier 2019. Some rights reserved.</p>
             </div>
             <div class="footer-icons">
-                <div class="flex-row-item">
+                <div class="flex-item">
                     <span class="icon">
                         <i class="fab fa-facebook"></i>
                     </span>
                 </div>
-                <div class="flex-row-item">
+                <div class="flex-item">
                     <span class="icon">
                         <i class="fab fa-twitter"></i>
                     </span>
                 </div>
-                <div class="flex-row-item">
+                <div class="flex-item">
                     <span class="icon">
                         <i class="fab fa-instagram"></i>
                     </span>

@@ -1,0 +1,284 @@
+/* Begin Module Styles */
+
+.banner {
+    background-image: url('../images/bloom.jpg');
+    background-size: cover; 
+  }
+  
+  .btn-default {
+      box-shadow: inset 0px 1px 0px 0px #080;
+      box-sizing: border-box;
+      background-color: #080;
+      border-radius: 5px;
+      border: 1px solid #080;
+      cursor: pointer;
+      color: #fff;
+      font-family: 'Lato','sans-serif';
+      font-size: 16px;
+      font-weight: 400;
+      margin: 0.5em 0;
+    padding: 0.625em 1em;
+      text-decoration: none;
+      text-shadow: 0px 1px 0px #528009;
+  }
+  
+  .btn-def-large {
+      box-sizing: border-box;
+      width: 100%;
+      border: none;
+      border-radius: 0;
+      margin-left: 0;
+  }
+  
+  .centered {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle-frame {
+    border-radius: 50%;
+    box-shadow: 0 5px 5px 0 #aba;
+    max-width: 192px;
+    height: auto;
+  }
+  
+  .container {
+    box-sizing: border-box;
+    width: 70vw;
+    margin: 6% auto;
+  }
+  
+  .desc {
+    font-family: 'Lato','sans-serif';
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    color: #334;  
+    text-align:center;
+  }
+  
+  .flex-header {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 25% 5% 12% 5%;
+    text-align: center;
+  }
+  
+  .flex-item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    flex: 0 0 25%;
+    margin-bottom: 5%;
+  }
+  
+  .flex-store {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: space-between;
+  }
+  
+  .footer-cont {
+    box-sizing: border-box;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-icons {    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 45vw;
+    margin-top: 6%; 
+  }
+  
+  .footer-li {
+    margin: 0 0.5em;
+  }
+  
+  .footer-li-first {
+    margin-right: 0.5em;
+  }
+  
+  .frm-small {
+      margin-top: 5%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    align-items: center;
+  }
+  
+  .gp {
+    min-height: 480px;
+  }
+  
+  .grid-photo-1 {
+    background-image: url('../images/solar.jpg');
+    background-size: cover;
+  }
+  
+  .grid-photo-2 {
+    background-image: url('../images/recycle.jpg');
+    background-size: cover;
+  }
+  
+  .grid-photo-3 {
+    background-image: url('../images/iceberg.jpg');
+    background-size: cover;
+  }
+  
+  .gt {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .header-bold {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: 1.25rem;
+  }
+  
+  .header-large {
+    font-size: 2.25em;
+    font-weight: 700;
+  }
+  
+  .header-light {
+    color: white;
+  }
+  
+  .icon {
+    color: #030;
+    font-size: 2em;
+  }
+  
+  .large-icon {
+    font-size: 5em;
+    color: #030;
+  }
+  
+  .legal {
+    font-family: 'Lato', 'sans-serif';
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: gray;
+  }
+  
+  .mb-hidden {
+    display: none;
+  }
+  
+  .nav-container {
+    box-sizing: border-box;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .overlay {
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+  }
+  
+  .text-single {
+      box-sizing: border-box;
+      height: 2.5rem;
+      width: 100%;
+    font-family: 'Lato', 'sans-serif';
+      border: 1px solid gray;
+      border-radius: 6px;
+  }
+  
+  @media screen and (min-width: 900px) {
+    
+    .btn-def-large {
+      width: 19%;
+      margin-left: 2%;
+    }
+  
+    .desc {
+      font-size: 1.25em;
+      line-height: 1.25em;
+    }
+  
+    .dt-hidden {
+      display: none;
+    }
+  
+    .footer-cont {
+      width: 70vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .footer-icons {    
+      width: auto;
+      margin-top: 0;
+      flex-basis: 15%;
+    }
+  
+    .flex-header {
+      margin: 6% 0 0 0;
+    }
+  
+    .flex-item {
+      margin-bottom: 0;
+    }
+  
+    .flex-store {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+  
+    .grid-photo-1 {
+      grid-row: 1;
+      grid-column: 2;
+    }
+  
+    .grid-photo-2 {
+      grid-row: 2;
+      grid-column: 1;
+    }
+  
+    .grid-photo-3 {
+      grid-row: 3;
+      grid-column: 2;
+    }
+  
+    .header-large {
+      font-size: 3.25em;
+    }
+  
+    .mb-hidden {
+      display: inline;
+    }
+  
+    .nav-container {
+      width: 70vw;
+    }
+  
+    .text-single {
+      width: 70%;
+    }
+  
+  }
+  
+  /* End Module Styles */

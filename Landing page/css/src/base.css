@@ -1,0 +1,55 @@
+/* Begin base styles */
+
+a {
+    font-family: 'Lato', 'sans-serif';
+    text-decoration: none;
+    color: #060;
+  }
+  
+  a:hover {
+    color: #030;
+  }
+  
+  .btn-default:hover {
+    background-color: #060;
+    border: 1px solid #060;
+    color:white;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato','sans-serif';
+    font-size: 1.25em;
+    font-weight: 400; 
+    margin: 0;
+    text-align: center;
+  }
+  
+  .hvr-icon:hover .fas {
+    font-size: 110%;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  li > a {
+    font-size: 0.80em;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  @media screen and (min-width: 900px) {
+    
+    li > a {
+      font-size: 1em;
+    }
+  
+  }
+  
+  /* End Base Styles */
