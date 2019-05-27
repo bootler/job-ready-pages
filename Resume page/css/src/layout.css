@@ -1,0 +1,51 @@
+/* Begin layout styles */
+
+#hor-nav-container {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    color:white;
+    width: 100vw;
+    height: 10vh;
+}
+
+section {
+    width: 95vw;
+    margin: 15vh auto;
+}
+
+@media (min-width: 900px) {
+    
+    body {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 0;
+    }
+
+    #hor-nav-container {
+        display: none;
+    }
+
+    nav {
+        width: 20vw;
+        height: 100vw;
+    }
+
+    section {
+        width: 75vw;
+        grid-column: 2;
+    }
+}
+
+/* End layout styles */

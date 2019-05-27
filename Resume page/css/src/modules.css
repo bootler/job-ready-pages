@@ -1,0 +1,18 @@
+/* Begin module styles */
+
+.collapsible {
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    
+    .collapsible {
+        display: block;
+    }
+
+    .dt-hidden {
+        display: none;
+    }
+}
+
+/* End modyle styles */
