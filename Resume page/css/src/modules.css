@@ -1,6 +1,15 @@
 /* Begin module styles */
 
 .collapsible {
+    height: 0;
+    transition: 300ms ease-in-out;
+}
+
+#list {
+    display: none;
+}
+
+.mb-hidden {
     display: none;
 }
 
@@ -12,6 +21,10 @@
 
     .dt-hidden {
         display: none;
+    }
+
+    .mb-hidden {
+        display: block;
     }
 }
 

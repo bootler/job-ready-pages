@@ -18,14 +18,14 @@
 
 <body>
     <nav>
-        <div class="dt-hidden" id="hor-nav-container">
-            <h1 class="dt-hidden">Person Name</h1>
-            <button class="dt-hidden">Expand</button>
+        <div id="hor-nav-container">
+            <h2 class="dt-hidden">Person Name</h2>
+            <button class="dt-hidden" id="menu-toggle" onclick="f()">Toggle</button>
         </div>
-        <div class="collapsible">
-            <image alt="IMAGE"></image>
-            <h1>Person Name</h1>
-            <ul>
+        <div class="collapsible" style="background-color: black">
+            <image class="mb-hidden" alt="IMAGE"></image>
+            <h1 class="mb-hidden">Person Name</h1>
+            <ul id="list">
                 <li>Item</li>
                 <li>Item</li>
                 <li>Item</li>
@@ -98,6 +98,29 @@
             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         </p>
-    </section>    
+    </section>
+    <!--placeholder-->
+    <script typr="text/javascript">
+            let flag = false;
+            const menu =  document.getElementsByClassName('collapsible')[0];
+            const list = document.getElementById('list');
+            function f() {
+                if (!flag)
+                {
+                    menu.style.height='30vh';
+                    setTimeout(() => {
+                        list.style.display="block";
+                    },120);
+                    flag = true;
+                }
+                else {
+                    menu.style.height='0';
+                    setTimeout(() => { 
+                        list.style.display = "none";
+                    }, 185);
+                    flag = false;
+                }
+            }
+    </script>
 </body>
 </html>
