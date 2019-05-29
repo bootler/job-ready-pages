@@ -1,12 +1,26 @@
 /* Begin module styles */
 
 .collapsible {
-    height: 0;
-    transition: 300ms ease-in-out;
+    max-height: 0;
+    transition: 300ms linear;
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    overflow: hidden;
 }
 
 #list {
-    display: none;
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#list > li {
+    border: 1px solid white;
 }
 
 .mb-hidden {
@@ -16,7 +30,7 @@
 @media screen and (min-width: 900px) {
     
     .collapsible {
-        display: block;
+        max-height: 100%;
     }
 
     .dt-hidden {

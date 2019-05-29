@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Project Page 1: Landing page">
+    <meta name="description" content="Project Page 2: Resume page">
     <meta name="author" content="Alex Boutilier">
             
     <title>Project Page 2: Resume Page></title>
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/src/base.css">
     <link rel="stylesheet" href="css/src/layout.css">
     <link rel="stylesheet" href="css/src/modules.css">
+    <link rel="stylesheet" href="css/src/state.css">
             
 </head>
 
@@ -20,7 +21,7 @@
     <nav>
         <div id="hor-nav-container">
             <h2 class="dt-hidden">Person Name</h2>
-            <button class="dt-hidden" id="menu-toggle" onclick="f()">Toggle</button>
+            <button class="dt-hidden" id="menu-toggle" onclick="toggleCollapse()">Toggle</button>
         </div>
         <div class="collapsible" style="background-color: black">
             <image class="mb-hidden" alt="IMAGE"></image>
@@ -99,28 +100,6 @@
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         </p>
     </section>
-    <!--placeholder-->
-    <script typr="text/javascript">
-            let flag = false;
-            const menu =  document.getElementsByClassName('collapsible')[0];
-            const list = document.getElementById('list');
-            function f() {
-                if (!flag)
-                {
-                    menu.style.height='30vh';
-                    setTimeout(() => {
-                        list.style.display="block";
-                    },120);
-                    flag = true;
-                }
-                else {
-                    menu.style.height='0';
-                    setTimeout(() => { 
-                        list.style.display = "none";
-                    }, 185);
-                    flag = false;
-                }
-            }
-    </script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
