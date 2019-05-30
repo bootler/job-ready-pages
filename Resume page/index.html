@@ -10,6 +10,8 @@
             
     <title>Project Page 2: Resume Page></title>
 
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="css/src/base.css">
     <link rel="stylesheet" href="css/src/layout.css">
     <link rel="stylesheet" href="css/src/modules.css">
@@ -18,20 +20,20 @@
 </head>
 
 <body>
+    
     <nav>
         <div id="hor-nav-container">
             <h2 class="dt-hidden">Person Name</h2>
             <button class="dt-hidden" id="menu-toggle" onclick="toggleCollapse()">Toggle</button>
         </div>
         <div class="collapsible" style="background-color: black">
-            <image class="mb-hidden" alt="IMAGE"></image>
-            <h1 class="mb-hidden">Person Name</h1>
+            <img src="images/blue.png" class="circle-frame gray-border mb-hidden" alt="IMAGE" id="headshot"></img>
             <ul id="list">
-                <li>Item</li>
-                <li>Item</li>
-                <li>Item</li>
-                <li>Item</li>
-                <li>Item</li>
+                <li>About</li>
+                <li>Experience</li>
+                <li>Education</li>
+                <li>Skills</li>
+                <li>Interests</li>
             </ul>
         </div>
     </nav>
@@ -101,5 +103,7 @@
         </p>
     </section>
     <script src="js/menu.js"></script>
+
 </body>
+
 </html>

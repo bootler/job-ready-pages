@@ -1,2 +1,5 @@
 # VSCode workspaces
 *.code-workspace
+
+# FontSquirrel Webfont kits
+**/webfontkit

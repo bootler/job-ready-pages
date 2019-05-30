@@ -34,17 +34,24 @@ section {
         grid-gap: 0;
     }
 
+    #headshot {
+        margin-bottom: 1.5rem;
+    }
+
     #hor-nav-container {
         display: none;
     }
 
     nav {
-        width: 20vw;
-        height: 100vw;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        width: 18vw;
+        height: 100vh;
     }
 
     section {
-        width: 75vw;
+        width: 77vw;
         grid-column: 2;
     }
 }
