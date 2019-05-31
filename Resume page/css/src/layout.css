@@ -20,6 +20,10 @@ nav {
     height: 8vh;
 }
 
+nav a  {
+    color: white;
+}
+
 section {
     width: 95%;
     margin: 13vh auto;

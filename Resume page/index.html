@@ -11,6 +11,8 @@
     <title>Project Page 2: Resume Page></title>
 
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="css/src/base.css">
     <link rel="stylesheet" href="css/src/layout.css">
@@ -23,8 +25,12 @@
     
     <nav>
         <div id="hor-nav-container">
-            <h2 class="dt-hidden">Person Name</h2>
-            <button class="dt-hidden" id="menu-toggle" onclick="toggleCollapse()">Toggle</button>
+            <h2 class="dt-hidden" style="font-family: 'Muli',sans-serif; font-weight: 400;">Person Name</h2>
+            <span>
+                <a href="#" onclick="toggleCollapse()">
+                    <i class="dt-hidden fas fa-bars" id="menu-toggle"></i>
+                </a>
+            </span>
         </div>
         <div class="collapsible" style="background-color: black">
             <img src="images/blue.png" class="circle-frame gray-border mb-hidden" alt="IMAGE" id="headshot"></img>
