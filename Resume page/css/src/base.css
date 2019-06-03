@@ -404,6 +404,13 @@ h1,h2,h3,h4,h5,h6,p,ul {
   margin: 0;
 }
 
+h1 {
+  font-family: 'league_gothicregular';
+  font-size: 10rem;
+  text-transform: uppercase;
+  margin-bottom: -3%;
+}
+
 h2 {
   font-family: 'Muli',sans-serif;
   font-weight: 400;
@@ -417,6 +424,10 @@ img {
 li {
   font-family: 'Muli',sans-serif;
   font-weight: 800;
+}
+
+p {
+  margin: 3% 0;
 }
 
 /* End base styles */

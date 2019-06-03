@@ -51,10 +51,6 @@
         display: none;
     }
 
-    .gray-border {
-        border: .5rem solid rgba(255,255,255,0.2);
-    }
-
     .mb-hidden {
         display: block;
     }
