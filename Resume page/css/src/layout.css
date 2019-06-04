@@ -3,7 +3,7 @@
 #hor-nav-container {
     box-sizing: border-box;
     height: 100%;
-    width: 95%;
+    width: 94%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -14,10 +14,11 @@
 nav {
     position: fixed;
     top: 0;
+    left: 0;
     background-color: black;
     color:white;
     width: 100%;
-    height: 8vh;
+    height: 10vh;
 }
 
 nav a  {
@@ -25,17 +26,19 @@ nav a  {
 }
 
 section {
+    min-height: 100vh;
     width: 95%;
-    margin: 13vh auto;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 @media (min-width: 900px) {
     
     body {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 0;
+        width: 70rem;
+        padding-left: 19rem;    
     }
 
     #headshot {
@@ -50,13 +53,13 @@ section {
     nav {
         display: flex;
         flex-flow: column nowrap;
-        justify-content: center;
-        width: 18vw;
+        width: 17rem;
         height: 100vh;
     }
 
     section {
-        width: 77vw;
+        width: 75rem;
+        height: 100vh;
         grid-column: 2;
     }
 }
