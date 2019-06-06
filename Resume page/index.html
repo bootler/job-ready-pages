@@ -27,7 +27,7 @@
         <div id="hor-nav-container">
             <h2 class="dt-hidden">Person Name</h2>
             <span>
-                <a href="#" onclick="toggleCollapse()">
+                <a href="javascript:void(0)" onclick="toggleCollapse()">
                     <i class="dt-hidden fas fa-bars" id="menu-toggle"></i>
                 </a>
             </span>
@@ -35,15 +35,15 @@
         <div class="collapsible">
             <img src="images/blue.png" alt="Personal Picture" class="circle-frame mb-hidden" id="headshot"></img>
             <ul id="list">
-                <li>About</li>
-                <li>Experience</li>
-                <li>Education</li>
-                <li>Skills</li>
-                <li>Interests</li>
+                <li><a class="nav-link highlighted" href="#about">About</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#education">Education</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#interests">Interests</a></li>
             </ul>
         </div>
     </nav>
-    <section>
+    <section id="about">
         <div class="content">
             <h1>Person <span class="highlight">Name</span></h1>
             <h4>123 Boulevard Street · Ontario, Canada · (555)-123-4444 · <span class="highlight">person.name@email.com</span></h4>
@@ -67,7 +67,8 @@
             </div>
         </div>
     </section>
-    <section>
+    <hr>
+    <section id="experience">
         <div class="content">
             <h1>Hi</h1>
             <h3>Hello there</h3>
@@ -82,7 +83,8 @@
             </p>
         </div>
     </section>
-    <section>
+    <hr>
+    <section id="education">
         <div class="content">
             <h1>Hi</h1>
             <h3>Hello there</h3>
@@ -97,7 +99,8 @@
             </p>
         </div>
     </section>
-    <section>
+    <hr>
+    <section id="skills">
         <div class="content">
             <h1>Hi</h1>
             <h3>Hello there</h3>
@@ -112,7 +115,8 @@
             </p>
         </div>
     </section>
-    <section>
+    <hr>
+    <section id="interests">
         <div class="content">
             <h1>Hi</h1>
             <h3>Hello there</h3>

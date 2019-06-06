@@ -394,6 +394,11 @@
 
 html {
   font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {

@@ -1,7 +1,16 @@
 /* Begin state-dependent styles */
 
-.show {
-    max-height: 50vh;
+
+.highlighted {
+    color: blue;
+}
+
+/* only visible in mobile */
+@media screen and (max-width: 900px) {
+    .show {
+        max-height: 50vh;
+        transition: 300ms linear;
+    }
 }
 
 /* End state-dependent styles */
