@@ -410,12 +410,14 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 h1,h2,h3,h4 {
-  font-family: 'league_gothicregular';
-  text-transform: uppercase; 
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #272d2d; 
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 h2 {
@@ -438,20 +440,11 @@ hr {
 
 /* todo: reorganize */
 nav h2 {
+  color:white;
   font-family: 'Muli',sans-serif;
   font-weight: 400;
   font-size: 1.67rem;
   text-transform: none;
-}
-
-
-
-.subheading {
-  color: rgba(0,0,0,0.5);
-  font-family: 'Muli';
-  font-size: 1em;
-  text-transform: uppercase;
-  margin-top: -1.5%;
 }
 
 img {
@@ -466,7 +459,7 @@ li {
 }
 
 p {
-  color:gray;
+  color:rgba(0,0,0,0.5);
   font-family: 'Muli';
   font-size: 1.15rem;
   line-height: 1.34rem;

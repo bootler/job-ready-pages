@@ -2,14 +2,13 @@
 
 
 .highlighted {
-    color: blue;
+    color: #fff;
 }
 
 /* only visible in mobile */
 @media screen and (max-width: 900px) {
     .show {
         max-height: 50vh;
-        transition: 300ms linear;
     }
 }
 
