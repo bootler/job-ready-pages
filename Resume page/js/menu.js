@@ -29,8 +29,11 @@ function toggleCollapse() {
 function isInViewport(elem) {
     const vh = window.innerHeight;
     const rect = elem.getBoundingClientRect();
+    
+    //give a little buffer room to offset the smooth scroll delay
+    const buffer = 50;
 
-    return (rect.top <= vh && rect.bottom >= 0);
+    return (rect.top < vh - buffer && rect.bottom > 0 + buffer);
 }
 
 function addHighlight() {

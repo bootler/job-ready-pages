@@ -421,29 +421,29 @@ h1 {
 }
 
 h2 {
-  font-size: 5.5rem;
+  box-sizing: border-box;
+  font-size: 3.5rem;
+  padding-bottom: 10%;
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h4 {
   color: rgba(0,0,0,0.5);
   font-size: 1.5rem;
   line-height: 2.5rem;
-}
-
-hr {
-  margin: 5% auto;
+  padding-bottom: 5%;
 }
 
 /* todo: reorganize */
 nav h2 {
-  color:white;
+  color: white;
   font-family: 'Muli',sans-serif;
   font-weight: 400;
   font-size: 1.67rem;
+  padding: 0;
   text-transform: none;
 }
 
@@ -461,9 +461,19 @@ li {
 p {
   color:rgba(0,0,0,0.5);
   font-family: 'Muli';
-  font-size: 1.15rem;
-  line-height: 1.34rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
   margin-top: 3%;
+}
+
+@media screen and (min-width: 900px) {
+  h2 {
+    padding: 5% 0;
+  }
+
+  h4 {
+    padding-bottom: 0;
+  }
 }
 
 /* End base styles */
