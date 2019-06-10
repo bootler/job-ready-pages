@@ -35,7 +35,7 @@ section {
     flex-flow: column nowrap; 
 }
 
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
     
     body {
         width: 70rem;
@@ -65,5 +65,4 @@ section {
         justify-content: center;
     }
 }
-
 /* End layout styles */

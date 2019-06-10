@@ -476,4 +476,20 @@ p {
   }
 }
 
+/* style tweak that looks better on small notebooks that still
+ * load the desktop style by default. Changes the value of 1rem to make
+ * everything fit better
+ */
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+  
+  html {
+    font-size: calc(1em * 0.8);
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+  
+}
+
 /* End base styles */
