@@ -11,6 +11,15 @@
     justify-content: space-between;
 }
 
+#mb-title {
+    color: white;
+    font-family: 'Muli',sans-serif;
+    font-weight: 400;
+    font-size: 1.67rem;
+    padding: 0;
+    text-transform: none;
+}  
+
 nav {
     position: fixed;
     top: 0;
@@ -20,13 +29,8 @@ nav {
     height: 8vh;
 }
 
-nav a  {
-    color: rgba(255,255,255,0.5);
-}
-
 section {
     box-sizing: border-box;
-    color: #d9d9d9;
     min-height: 100vh;
     width: 90%;
     margin: 0 auto;
@@ -65,4 +69,5 @@ section {
         justify-content: center;
     }
 }
+
 /* End layout styles */

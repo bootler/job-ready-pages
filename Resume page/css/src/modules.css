@@ -16,8 +16,7 @@
 }
 
 .content {
-    min-height: 95%;
-    
+    min-height: 95%;  
 }
 
 .content-block {
@@ -55,6 +54,10 @@
     color: white;
 }
 
+.nav-link {
+    color: rgba(255,255,255,0.5);
+}
+
 .nav-link:hover {
     color: rgba(255,255,255,0.8);
 }
@@ -72,15 +75,14 @@
 }
 
 .social-icons > a > i:hover {
-    background-color: #19323c;
-    
+    background-color: #19323c;   
 }
 
 .subheading {
+    color: rgba(0,0,0,0.5);
     display: flex;
     flex-flow: column nowrap;
     font-family:'Open Sans Condensed',sans-serif;
-    color: rgba(0,0,0,0.5);
     font-size: 1.5rem;
     line-height: 2rem;
     margin-top: 5%;
@@ -102,11 +104,11 @@
     }
     
     .collapsible {
+        align-items: center;
+        justify-content: space-between;
         margin: auto 0;
         min-height: 25rem;
         max-height: 95%;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .content {
@@ -117,8 +119,7 @@
     .content-block {
         flex-flow: row nowrap;
         align-items: flex-start;
-        justify-content: space-between;
-        
+        justify-content: space-between;   
     }
 
     .dt-hidden {
