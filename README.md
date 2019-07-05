@@ -3,3 +3,6 @@ Web page templates created as part of the fantastic [Get Job Ready](https://gith
 
 Link: [Landing page](https://bootler.github.io/job-ready-pages/Landing%20page/index.html) [Resume page](https://bootler.github.io/job-ready-pages/Resume%20page/)
 
+## Updates
+This README will soon be replaced with a more comprehensive one.
+
